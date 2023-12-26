@@ -2,7 +2,7 @@
     --main-bg-color: #27214F;
     --primary-text-color: #ECF2F4;
     --secondary-text-color: #696969;
-    --secondary-color: #863B87;
+    --secondary-color: #D5B85A;
     --logo-background-color: #000000;
 }
 
@@ -52,4 +52,43 @@
     width: 60vw;
     background-color: var(--main-bg-color);
     color: var(--primary-text-color);
+}
+
+label,
+.log-in {
+    color: var(--secondary-text-color);
+}
+
+a {
+    text-decoration: none;
+    font-weight: 700;
+}
+
+a, 
+button {
+    color: var(--secondary-color);
+}
+
+button {
+    background-color: transparent;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    border-radius: 4px;
+    border: 2px solid var(--secondary-color);
+    font-weight: 700;
+    font-size: 1.2em;
+    padding: 10px 40px;
+    margin: 40px 0;
+}
+
+button:hover {
+    border-radius: 5px;
+    cursor: pointer;
+    color: var(--primary-text-color);
+    background-color: var(--secondary-color);
+}
+
+a:hover {
+    color: white;
+    cursor: pointer;
 }
