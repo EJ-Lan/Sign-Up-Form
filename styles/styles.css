@@ -1,0 +1,55 @@
+:root {
+    --main-bg-color: #27214F;
+    --primary-text-color: #ECF2F4;
+    --secondary-text-color: #696969;
+    --secondary-color: #863B87;
+    --logo-background-color: #000000;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    border: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+#container {
+    min-height: 100vh;
+    display: flex;
+}
+
+.left {
+    width: 40vw;
+    background-image: url('../images/backgrounds/nasa.jpg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+}
+
+.logo-section {
+    height: auto;
+    position: relative;
+    color: var(--primary-text-color);
+    background-color: var(--logo-background-color);
+    opacity: 0.7;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 1vw;
+    top: 20vh;
+    padding: 15px 0;
+}
+
+.galaxy-icon {
+    height: 10vh;
+}
+
+.right {
+    width: 60vw;
+    background-color: var(--main-bg-color);
+    color: var(--primary-text-color);
+}
